@@ -1,0 +1,129 @@
+/*  vert : #08a045
+    rouge : #e63946
+    bleu canard : #1a535c
+    jaune : #ffe66d
+    fond gris transparent : rgba(36, 35, 35, 0.5)
+*/
+
+body {
+  font-family: 'Baloo 2', cursive;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+  background-color: #1a535c;
+}
+
+main {
+  background-color: #ffe66d;
+  width: 80%;
+  margin: auto;
+  padding: 3%;
+}
+
+h1, h2, h3 {
+  color: #e63946;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 4vw;
+  text-align: center;
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 2.5vw;
+  text-align: left;
+  line-height: 1.5%;
+  margin-bottom: 3%;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 2vw;
+}
+
+div {
+  font-weight: 400;
+  font-size: 1.5vw;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1.5vw;
+}
+
+.index-img {
+  width: 100%;
+}
+
+nav {
+  background-color: rgba(36, 35, 35, 0.5);
+}
+
+#nav-haut ul, #nav-bas ul {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+#nav-haut li {
+  list-style-type: none;
+  margin-right: 5%;
+  font-size: 1.6vw;
+  font-weight: 600;
+}
+
+#nav-bas li {
+  list-style-type: none;
+  margin-right: 2%;
+  font-size: 1vw;
+  font-weight: 400;
+}
+
+#nav-haut li a, #nav-bas li a {
+  text-decoration: none;
+  color: #ffe66d;
+}
+
+#nav-haut li a:hover, #nav-bas li a:hover {
+  color: #e63946;
+}
+
+.legende {
+  font-size: 2vw;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.connect-form {
+  background-color: #ffe66d;
+  width: 50%;
+  margin: auto;
+  padding: 3%;
+}
+
+hr {
+  background-color: rgba(36, 35, 35, 0.5);
+  color: rgba(36, 35, 35, 0.5);
+  height: 2px;
+  border: none;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+footer {
+  background-color: rgba(36, 35, 35, 0.5);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+footer p {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.3vw;
+  color: #ffe66d;
+  line-height: 5px;
+}
